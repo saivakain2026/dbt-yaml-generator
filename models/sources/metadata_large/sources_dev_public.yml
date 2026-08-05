@@ -1,0 +1,2211 @@
+version: 2
+
+sources:
+  - name: raw_source_dev_public
+    database: dev
+    schema: public
+    tables:
+      - name: table_1
+        identifier: table_1
+        columns:
+          - name: table_1_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_2
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_4
+            description: "column_4 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_5
+            description: "column_5 description"
+          - name: column_6
+            description: "column_6 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_7
+            description: "column_7 description"
+          - name: column_8
+            description: "column_8 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_9
+            description: "column_9 description"
+          - name: column_10
+            description: "column_10 description"
+          - name: column_11
+            description: "column_11 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_12
+            description: "column_12 description"
+          - name: column_13
+            description: "column_13 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_14
+            description: "column_14 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_15
+            description: "column_15 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_16
+            description: "column_16 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_17
+            description: "column_17 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_18
+            description: "column_18 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_19
+            description: "column_19 description"
+          - name: column_20
+            description: "column_20 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_21
+            description: "column_21 description"
+          - name: column_22
+            description: "column_22 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_23
+            description: "column_23 description"
+          - name: column_24
+            description: "column_24 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_25
+            description: "column_25 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+      - name: table_2
+        identifier: table_2
+        columns:
+          - name: table_2_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_1_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_4
+            description: "column_4 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_5
+            description: "column_5 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_6
+            description: "column_6 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_7
+            description: "column_7 description"
+          - name: column_8
+            description: "column_8 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_9
+            description: "column_9 description"
+          - name: column_10
+            description: "column_10 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_11
+            description: "column_11 description"
+          - name: column_12
+            description: "column_12 description"
+          - name: column_13
+            description: "column_13 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_14
+            description: "column_14 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_15
+            description: "column_15 description"
+          - name: column_16
+            description: "column_16 description"
+          - name: column_17
+            description: "column_17 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_18
+            description: "column_18 description"
+          - name: column_19
+            description: "column_19 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_20
+            description: "column_20 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_21
+            description: "column_21 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_22
+            description: "column_22 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_23
+            description: "column_23 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_24
+            description: "column_24 description"
+          - name: column_25
+            description: "column_25 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+      - name: table_3
+        identifier: table_3
+        columns:
+          - name: table_3_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_2_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_4
+            description: "column_4 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_5
+            description: "column_5 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_6
+            description: "column_6 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_7
+            description: "column_7 description"
+          - name: column_8
+            description: "column_8 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_9
+            description: "column_9 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_10
+            description: "column_10 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_11
+            description: "column_11 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_12
+            description: "column_12 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_13
+            description: "column_13 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_14
+            description: "column_14 description"
+          - name: column_15
+            description: "column_15 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_16
+            description: "column_16 description"
+          - name: column_17
+            description: "column_17 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_18
+            description: "column_18 description"
+          - name: column_19
+            description: "column_19 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_20
+            description: "column_20 description"
+          - name: column_21
+            description: "column_21 description"
+          - name: column_22
+            description: "column_22 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_23
+            description: "column_23 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_24
+            description: "column_24 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_25
+            description: "column_25 description"
+      - name: table_4
+        identifier: table_4
+        columns:
+          - name: table_4_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_3_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+          - name: column_4
+            description: "column_4 description"
+          - name: column_5
+            description: "column_5 description"
+          - name: column_6
+            description: "column_6 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_7
+            description: "column_7 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_8
+            description: "column_8 description"
+          - name: column_9
+            description: "column_9 description"
+          - name: column_10
+            description: "column_10 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_11
+            description: "column_11 description"
+          - name: column_12
+            description: "column_12 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_13
+            description: "column_13 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_14
+            description: "column_14 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_15
+            description: "column_15 description"
+          - name: column_16
+            description: "column_16 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_17
+            description: "column_17 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_18
+            description: "column_18 description"
+          - name: column_19
+            description: "column_19 description"
+          - name: column_20
+            description: "column_20 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_21
+            description: "column_21 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_22
+            description: "column_22 description"
+          - name: column_23
+            description: "column_23 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_24
+            description: "column_24 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_25
+            description: "column_25 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+      - name: table_5
+        identifier: table_5
+        columns:
+          - name: table_5_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_4_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+          - name: column_4
+            description: "column_4 description"
+          - name: column_5
+            description: "column_5 description"
+          - name: column_6
+            description: "column_6 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_7
+            description: "column_7 description"
+          - name: column_8
+            description: "column_8 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_9
+            description: "column_9 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_10
+            description: "column_10 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_11
+            description: "column_11 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_12
+            description: "column_12 description"
+          - name: column_13
+            description: "column_13 description"
+          - name: column_14
+            description: "column_14 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_15
+            description: "column_15 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_16
+            description: "column_16 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_17
+            description: "column_17 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_18
+            description: "column_18 description"
+          - name: column_19
+            description: "column_19 description"
+          - name: column_20
+            description: "column_20 description"
+          - name: column_21
+            description: "column_21 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_22
+            description: "column_22 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_23
+            description: "column_23 description"
+          - name: column_24
+            description: "column_24 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_25
+            description: "column_25 description"
+      - name: table_6
+        identifier: table_6
+        columns:
+          - name: table_6_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_5_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+          - name: column_4
+            description: "column_4 description"
+          - name: column_5
+            description: "column_5 description"
+          - name: column_6
+            description: "column_6 description"
+          - name: column_7
+            description: "column_7 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_8
+            description: "column_8 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_9
+            description: "column_9 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_10
+            description: "column_10 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_11
+            description: "column_11 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_12
+            description: "column_12 description"
+          - name: column_13
+            description: "column_13 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_14
+            description: "column_14 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_15
+            description: "column_15 description"
+          - name: column_16
+            description: "column_16 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_17
+            description: "column_17 description"
+          - name: column_18
+            description: "column_18 description"
+          - name: column_19
+            description: "column_19 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_20
+            description: "column_20 description"
+          - name: column_21
+            description: "column_21 description"
+          - name: column_22
+            description: "column_22 description"
+          - name: column_23
+            description: "column_23 description"
+          - name: column_24
+            description: "column_24 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_25
+            description: "column_25 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+      - name: table_7
+        identifier: table_7
+        columns:
+          - name: table_7_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_6_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+          - name: column_4
+            description: "column_4 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_5
+            description: "column_5 description"
+          - name: column_6
+            description: "column_6 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_7
+            description: "column_7 description"
+          - name: column_8
+            description: "column_8 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_9
+            description: "column_9 description"
+          - name: column_10
+            description: "column_10 description"
+          - name: column_11
+            description: "column_11 description"
+          - name: column_12
+            description: "column_12 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_13
+            description: "column_13 description"
+          - name: column_14
+            description: "column_14 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_15
+            description: "column_15 description"
+          - name: column_16
+            description: "column_16 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_17
+            description: "column_17 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_18
+            description: "column_18 description"
+          - name: column_19
+            description: "column_19 description"
+          - name: column_20
+            description: "column_20 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_21
+            description: "column_21 description"
+          - name: column_22
+            description: "column_22 description"
+          - name: column_23
+            description: "column_23 description"
+          - name: column_24
+            description: "column_24 description"
+          - name: column_25
+            description: "column_25 description"
+      - name: table_8
+        identifier: table_8
+        columns:
+          - name: table_8_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_7_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+          - name: column_4
+            description: "column_4 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_5
+            description: "column_5 description"
+          - name: column_6
+            description: "column_6 description"
+          - name: column_7
+            description: "column_7 description"
+          - name: column_8
+            description: "column_8 description"
+          - name: column_9
+            description: "column_9 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_10
+            description: "column_10 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_11
+            description: "column_11 description"
+          - name: column_12
+            description: "column_12 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_13
+            description: "column_13 description"
+          - name: column_14
+            description: "column_14 description"
+          - name: column_15
+            description: "column_15 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_16
+            description: "column_16 description"
+          - name: column_17
+            description: "column_17 description"
+          - name: column_18
+            description: "column_18 description"
+          - name: column_19
+            description: "column_19 description"
+          - name: column_20
+            description: "column_20 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_21
+            description: "column_21 description"
+          - name: column_22
+            description: "column_22 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_23
+            description: "column_23 description"
+          - name: column_24
+            description: "column_24 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_25
+            description: "column_25 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+      - name: table_9
+        identifier: table_9
+        columns:
+          - name: table_9_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_8_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_4
+            description: "column_4 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_5
+            description: "column_5 description"
+          - name: column_6
+            description: "column_6 description"
+          - name: column_7
+            description: "column_7 description"
+          - name: column_8
+            description: "column_8 description"
+          - name: column_9
+            description: "column_9 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_10
+            description: "column_10 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_11
+            description: "column_11 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_12
+            description: "column_12 description"
+          - name: column_13
+            description: "column_13 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_14
+            description: "column_14 description"
+          - name: column_15
+            description: "column_15 description"
+          - name: column_16
+            description: "column_16 description"
+          - name: column_17
+            description: "column_17 description"
+          - name: column_18
+            description: "column_18 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_19
+            description: "column_19 description"
+          - name: column_20
+            description: "column_20 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_21
+            description: "column_21 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_22
+            description: "column_22 description"
+          - name: column_23
+            description: "column_23 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_24
+            description: "column_24 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_25
+            description: "column_25 description"
+      - name: table_10
+        identifier: table_10
+        columns:
+          - name: table_10_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_9_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_4
+            description: "column_4 description"
+          - name: column_5
+            description: "column_5 description"
+          - name: column_6
+            description: "column_6 description"
+          - name: column_7
+            description: "column_7 description"
+          - name: column_8
+            description: "column_8 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_9
+            description: "column_9 description"
+          - name: column_10
+            description: "column_10 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_11
+            description: "column_11 description"
+          - name: column_12
+            description: "column_12 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_13
+            description: "column_13 description"
+          - name: column_14
+            description: "column_14 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_15
+            description: "column_15 description"
+          - name: column_16
+            description: "column_16 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_17
+            description: "column_17 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_18
+            description: "column_18 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_19
+            description: "column_19 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_20
+            description: "column_20 description"
+          - name: column_21
+            description: "column_21 description"
+          - name: column_22
+            description: "column_22 description"
+          - name: column_23
+            description: "column_23 description"
+          - name: column_24
+            description: "column_24 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_25
+            description: "column_25 description"
+      - name: table_11
+        identifier: table_11
+        columns:
+          - name: table_11_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_10_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_4
+            description: "column_4 description"
+          - name: column_5
+            description: "column_5 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_6
+            description: "column_6 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_7
+            description: "column_7 description"
+          - name: column_8
+            description: "column_8 description"
+          - name: column_9
+            description: "column_9 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_10
+            description: "column_10 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_11
+            description: "column_11 description"
+          - name: column_12
+            description: "column_12 description"
+          - name: column_13
+            description: "column_13 description"
+          - name: column_14
+            description: "column_14 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_15
+            description: "column_15 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_16
+            description: "column_16 description"
+          - name: column_17
+            description: "column_17 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_18
+            description: "column_18 description"
+          - name: column_19
+            description: "column_19 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_20
+            description: "column_20 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_21
+            description: "column_21 description"
+          - name: column_22
+            description: "column_22 description"
+          - name: column_23
+            description: "column_23 description"
+          - name: column_24
+            description: "column_24 description"
+          - name: column_25
+            description: "column_25 description"
+      - name: table_12
+        identifier: table_12
+        columns:
+          - name: table_12_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_11_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_4
+            description: "column_4 description"
+          - name: column_5
+            description: "column_5 description"
+          - name: column_6
+            description: "column_6 description"
+          - name: column_7
+            description: "column_7 description"
+          - name: column_8
+            description: "column_8 description"
+          - name: column_9
+            description: "column_9 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_10
+            description: "column_10 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_11
+            description: "column_11 description"
+          - name: column_12
+            description: "column_12 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_13
+            description: "column_13 description"
+          - name: column_14
+            description: "column_14 description"
+          - name: column_15
+            description: "column_15 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_16
+            description: "column_16 description"
+          - name: column_17
+            description: "column_17 description"
+          - name: column_18
+            description: "column_18 description"
+          - name: column_19
+            description: "column_19 description"
+          - name: column_20
+            description: "column_20 description"
+          - name: column_21
+            description: "column_21 description"
+          - name: column_22
+            description: "column_22 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_23
+            description: "column_23 description"
+          - name: column_24
+            description: "column_24 description"
+          - name: column_25
+            description: "column_25 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+      - name: table_13
+        identifier: table_13
+        columns:
+          - name: table_13_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_12_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+          - name: column_4
+            description: "column_4 description"
+          - name: column_5
+            description: "column_5 description"
+          - name: column_6
+            description: "column_6 description"
+          - name: column_7
+            description: "column_7 description"
+          - name: column_8
+            description: "column_8 description"
+          - name: column_9
+            description: "column_9 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_10
+            description: "column_10 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_11
+            description: "column_11 description"
+          - name: column_12
+            description: "column_12 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_13
+            description: "column_13 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_14
+            description: "column_14 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_15
+            description: "column_15 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_16
+            description: "column_16 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_17
+            description: "column_17 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_18
+            description: "column_18 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_19
+            description: "column_19 description"
+          - name: column_20
+            description: "column_20 description"
+          - name: column_21
+            description: "column_21 description"
+          - name: column_22
+            description: "column_22 description"
+          - name: column_23
+            description: "column_23 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_24
+            description: "column_24 description"
+          - name: column_25
+            description: "column_25 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+      - name: table_14
+        identifier: table_14
+        columns:
+          - name: table_14_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_13_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_4
+            description: "column_4 description"
+          - name: column_5
+            description: "column_5 description"
+          - name: column_6
+            description: "column_6 description"
+          - name: column_7
+            description: "column_7 description"
+          - name: column_8
+            description: "column_8 description"
+          - name: column_9
+            description: "column_9 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_10
+            description: "column_10 description"
+          - name: column_11
+            description: "column_11 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_12
+            description: "column_12 description"
+          - name: column_13
+            description: "column_13 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_14
+            description: "column_14 description"
+          - name: column_15
+            description: "column_15 description"
+          - name: column_16
+            description: "column_16 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_17
+            description: "column_17 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_18
+            description: "column_18 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_19
+            description: "column_19 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_20
+            description: "column_20 description"
+          - name: column_21
+            description: "column_21 description"
+          - name: column_22
+            description: "column_22 description"
+          - name: column_23
+            description: "column_23 description"
+          - name: column_24
+            description: "column_24 description"
+          - name: column_25
+            description: "column_25 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+      - name: table_15
+        identifier: table_15
+        columns:
+          - name: table_15_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_14_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+          - name: column_4
+            description: "column_4 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_5
+            description: "column_5 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_6
+            description: "column_6 description"
+          - name: column_7
+            description: "column_7 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_8
+            description: "column_8 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_9
+            description: "column_9 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_10
+            description: "column_10 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_11
+            description: "column_11 description"
+          - name: column_12
+            description: "column_12 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_13
+            description: "column_13 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_14
+            description: "column_14 description"
+          - name: column_15
+            description: "column_15 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_16
+            description: "column_16 description"
+          - name: column_17
+            description: "column_17 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_18
+            description: "column_18 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_19
+            description: "column_19 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_20
+            description: "column_20 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_21
+            description: "column_21 description"
+          - name: column_22
+            description: "column_22 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_23
+            description: "column_23 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_24
+            description: "column_24 description"
+          - name: column_25
+            description: "column_25 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+      - name: table_16
+        identifier: table_16
+        columns:
+          - name: table_16_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_15_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_4
+            description: "column_4 description"
+          - name: column_5
+            description: "column_5 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_6
+            description: "column_6 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_7
+            description: "column_7 description"
+          - name: column_8
+            description: "column_8 description"
+          - name: column_9
+            description: "column_9 description"
+          - name: column_10
+            description: "column_10 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_11
+            description: "column_11 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_12
+            description: "column_12 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_13
+            description: "column_13 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_14
+            description: "column_14 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_15
+            description: "column_15 description"
+          - name: column_16
+            description: "column_16 description"
+          - name: column_17
+            description: "column_17 description"
+          - name: column_18
+            description: "column_18 description"
+          - name: column_19
+            description: "column_19 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_20
+            description: "column_20 description"
+          - name: column_21
+            description: "column_21 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_22
+            description: "column_22 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_23
+            description: "column_23 description"
+          - name: column_24
+            description: "column_24 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_25
+            description: "column_25 description"
+      - name: table_17
+        identifier: table_17
+        columns:
+          - name: table_17_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_16_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_4
+            description: "column_4 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_5
+            description: "column_5 description"
+          - name: column_6
+            description: "column_6 description"
+          - name: column_7
+            description: "column_7 description"
+          - name: column_8
+            description: "column_8 description"
+          - name: column_9
+            description: "column_9 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_10
+            description: "column_10 description"
+          - name: column_11
+            description: "column_11 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_12
+            description: "column_12 description"
+          - name: column_13
+            description: "column_13 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_14
+            description: "column_14 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_15
+            description: "column_15 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_16
+            description: "column_16 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_17
+            description: "column_17 description"
+          - name: column_18
+            description: "column_18 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_19
+            description: "column_19 description"
+          - name: column_20
+            description: "column_20 description"
+          - name: column_21
+            description: "column_21 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_22
+            description: "column_22 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_23
+            description: "column_23 description"
+          - name: column_24
+            description: "column_24 description"
+          - name: column_25
+            description: "column_25 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+      - name: table_18
+        identifier: table_18
+        columns:
+          - name: table_18_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_17_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+          - name: column_4
+            description: "column_4 description"
+          - name: column_5
+            description: "column_5 description"
+          - name: column_6
+            description: "column_6 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_7
+            description: "column_7 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_8
+            description: "column_8 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_9
+            description: "column_9 description"
+          - name: column_10
+            description: "column_10 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_11
+            description: "column_11 description"
+          - name: column_12
+            description: "column_12 description"
+          - name: column_13
+            description: "column_13 description"
+          - name: column_14
+            description: "column_14 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_15
+            description: "column_15 description"
+          - name: column_16
+            description: "column_16 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_17
+            description: "column_17 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_18
+            description: "column_18 description"
+          - name: column_19
+            description: "column_19 description"
+          - name: column_20
+            description: "column_20 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_21
+            description: "column_21 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_22
+            description: "column_22 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_23
+            description: "column_23 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_24
+            description: "column_24 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_25
+            description: "column_25 description"
+      - name: table_19
+        identifier: table_19
+        columns:
+          - name: table_19_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_18_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+          - name: column_4
+            description: "column_4 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_5
+            description: "column_5 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_6
+            description: "column_6 description"
+          - name: column_7
+            description: "column_7 description"
+          - name: column_8
+            description: "column_8 description"
+          - name: column_9
+            description: "column_9 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_10
+            description: "column_10 description"
+          - name: column_11
+            description: "column_11 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_12
+            description: "column_12 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_13
+            description: "column_13 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_14
+            description: "column_14 description"
+          - name: column_15
+            description: "column_15 description"
+          - name: column_16
+            description: "column_16 description"
+          - name: column_17
+            description: "column_17 description"
+          - name: column_18
+            description: "column_18 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_19
+            description: "column_19 description"
+          - name: column_20
+            description: "column_20 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_21
+            description: "column_21 description"
+          - name: column_22
+            description: "column_22 description"
+          - name: column_23
+            description: "column_23 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_24
+            description: "column_24 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_25
+            description: "column_25 description"
+      - name: table_20
+        identifier: table_20
+        columns:
+          - name: table_20_id
+            description: "column_1 description"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: table_19_id
+            description: "column_2 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_3
+            description: "column_3 description"
+          - name: column_4
+            description: "column_4 description"
+          - name: column_5
+            description: "column_5 description"
+          - name: column_6
+            description: "column_6 description"
+          - name: column_7
+            description: "column_7 description"
+          - name: column_8
+            description: "column_8 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_9
+            description: "column_9 description"
+          - name: column_10
+            description: "column_10 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_11
+            description: "column_11 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_12
+            description: "column_12 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_13
+            description: "column_13 description"
+          - name: column_14
+            description: "column_14 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_15
+            description: "column_15 description"
+          - name: column_16
+            description: "column_16 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_17
+            description: "column_17 description"
+          - name: column_18
+            description: "column_18 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_19
+            description: "column_19 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_20
+            description: "column_20 description"
+          - name: column_21
+            description: "column_21 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_22
+            description: "column_22 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_23
+            description: "column_23 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: column_24
+            description: "column_24 description"
+          - name: column_25
+            description: "column_25 description"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn

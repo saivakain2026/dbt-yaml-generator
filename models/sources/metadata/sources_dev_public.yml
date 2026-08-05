@@ -1,0 +1,79 @@
+version: 2
+
+sources:
+  - name: raw_source_dev_public
+    database: dev
+    schema: public
+    tables:
+      - name: customer
+        identifier: customer
+        columns:
+          - name: customer_id
+            description: "Unique customer id"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: customer_name
+            description: "Customer full name"
+          - name: email
+            description: "Customer email"
+      - name: orders
+        identifier: orders
+        columns:
+          - name: order_id
+            description: "Unique order id"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: customer_id
+            description: "Customer reference"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: order_amount
+            description: "Total order amount"
+      - name: products
+        identifier: products
+        columns:
+          - name: product_id
+            description: "Product identifier"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: product_name
+            description: "Product name"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+      - name: payments
+        identifier: payments
+        columns:
+          - name: payment_id
+            description: "Payment identifier"
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn
+              - not_null:
+                  config:
+                    severity: warn
+          - name: order_id
+            description: "Order reference"
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
